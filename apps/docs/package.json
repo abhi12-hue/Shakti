@@ -39,7 +39,7 @@
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.2",
-    "@prisma/client":"workspace:*"
+    "@prisma/client": "^5.0.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
