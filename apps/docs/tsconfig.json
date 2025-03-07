@@ -1,0 +1,24 @@
+{
+  "extends": "@repo/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+    "next.config.js",
+    ".next/types/**/*.ts"
+, "app/(routes)/interview/_component/Quize.jsx", "app/(routes)/interview/layout.jsx", "app/(routes)/interview/page.jsx", "action/interview.js", "app/(routes)/dashboard/_component/DashboardView.jsx", "app/(routes)/dashboard/page.jsx", "app/(routes)/onboarding/page.jsx", "action/dashboard.js", "app/(routes)/dashboard/layout.jsx", "src/components/Header.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
